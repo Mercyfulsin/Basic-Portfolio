@@ -16,28 +16,14 @@ header{
 .header{
     margin: 0 auto;
     width:960px;
-    height: 100%;
 }
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 45px;
-    background: #666666;
-}
-#footer{
-    color: #ffffff;
-    position: absolute;
-    bottom: 0;
-    left: 45%;
-    text-align: center;
-}
+
 
 
 #name{
     float:left ;
     width: 200px;
-    height: 40px;
+    height: 37px;
     text-align: center;
     padding: 13px 0 0 0;
     color:#ffffff;
@@ -55,18 +41,41 @@ footer {
     position: relative;
     width: 100%;
     height: 600px;
+    overflow: auto;
     background-image: url("../images/background.png");
-    background-position: center;
-    background-size: 100% 100%;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .Container{
     position: absolute;
-    overflow: auto;
     width: 960px;
     height: 100%;
     background: #ffffff;
+    margin-top: 4%;
     margin-right: 10%;
     margin-left: 10%;
-    margin-bottom: 50%;
+    margin-bottom: 8%;
     border-block-color: #dddddd;    
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    background: #666666;
+    border-style: solid;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: #cccccc;
+}
+#footer{
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    text-align: center;
 }
