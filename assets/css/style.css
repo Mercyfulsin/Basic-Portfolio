@@ -110,6 +110,21 @@ input[type=submit]:hover{
     width: 920px;
     margin-left: 20px;
 }
+.image-box{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.project-image{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+.project-title{
+    position: absolute;
+}
+/* .project-title{} */
+
 
 
 footer {
