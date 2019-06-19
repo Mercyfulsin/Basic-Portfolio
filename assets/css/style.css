@@ -84,7 +84,7 @@ input[type=submit]:hover{
 .Middle{
     position: relative;
     width: 100vw;
-    height: 556px;
+    height: 100vh;
     overflow: auto;
     background-image: url("../images/background.png");
     background-position: center center;
