@@ -119,9 +119,14 @@ input[type=submit]:hover{
     position: absolute;
     width: inherit;
     height: inherit;
+    /* margin: 20px; */
 }
 .project-title{
     position: absolute;
+    text-align: center;
+    width: 100%;
+    background-color: #666666;
+    height: 1px;
 }
 /* .project-title{} */
 
