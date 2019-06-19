@@ -42,7 +42,39 @@ header{
     float:left;
     padding: 20px;
 }
-
+.input-combo{
+    padding: 20px;
+}
+input[type=text]{
+    /* border-box takes all boxes into size (width / height) */
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 12px 20px;
+    margin-top: 8px;
+}
+textarea{
+    height: 100px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 12px 20px;
+    /* height: 150px; */
+    margin-top: 8px;
+    resize: none;
+}
+input[type=submit]{
+    padding:5px 10px 5px 10px;
+    border-radius: 4px;
+    margin-left:20px;
+    margin-bottom:20px;
+    border:none;
+    background-color: #666666;
+    color: #ffffff;
+}
+input[type=submit]:hover{
+    background-color: #777777;
+}
 .Middle{
     position: relative;
     width: 100%;
