@@ -92,7 +92,7 @@ input[type=submit]:hover{
 .Middle{
     position: relative;
     width: 100vw;
-    height: 556px;
+    height: 100vh;
     overflow: auto;
     background-image: url("../images/background.png");
     background-position: center center;
@@ -106,8 +106,9 @@ input[type=submit]:hover{
     width: 960px;
     background: #ffffff;
     margin-top: 4%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%,0);
     margin-bottom: 8%;
     border-block-color: #dddddd;    
 }
